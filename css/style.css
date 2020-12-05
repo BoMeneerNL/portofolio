@@ -2,8 +2,8 @@
   display: none;
 }
 
-@media (max-width: 350px) {
-  .bignav {
+@media (max-width: 450px) {
+  .bigsite {
     display: none;
   }
   ul {
@@ -53,8 +53,8 @@
   }
 }
 
-@media (min-width: 350px) {
-  .smallnav {
+@media (min-width: 450px) {
+  .smallsite {
     display: none;
   }
   ul {
