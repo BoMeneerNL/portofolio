@@ -1,0 +1,3 @@
+this !nl/content/* folder is a mirror of /content/*
+
+the .scss (SASS) file is only included in the /content/* folder
