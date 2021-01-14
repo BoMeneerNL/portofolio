@@ -2,6 +2,10 @@
   display: none;
 }
 
+.onstart {
+  text-align: center;
+}
+
 /*Big site*/
 .bigsite ul {
   list-style-type: none;
