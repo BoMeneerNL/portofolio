@@ -5,7 +5,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>My work (mobile versie)</title>
-  <link rel="stylesheet" href="content/css/style.css">
+  <link rel="stylesheet" href="../content/css/style.css">
 </head>
 
 <body>
@@ -25,14 +25,15 @@
   </div>
   <div class="smallsite">
     <ul>
-      <li><a href="#home">Home</a></li>
+      <li><a class="active" href="#home">Home</a></li>
       <li><a href="#news">News</a></li>
-      <li class="dropdown">
-        <a href="javascript:void(0)" class="dropbtn">Dropdown▼</a>
+      <li><a href="#contact">Contact</a></li>
+      <li style="float:right" class="dropdown">
+        <a href="javascript:void(0)" class="dropbtn">Change language ▼</a>
         <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+          <a href="../lang=!nl/m.home.html"><img src="../content/img/nl_flag.webp" alt="DE_FLAG__choose_nl_lang" width="16px"></br></a>
+          <a href="../lang=!en/m.home.html"><img src="../content/img/en_flag.webp" alt="DE_FLAG__choose_en_lang" width="16px"></br></a>
+          <a href="../lang=!de/m.home.html"><img src="../content/img/de_flag.webp" alt="DE_FLAG__choose_de_lang" width="16px"></br></a>
         </div>
       </li>
     </ul>

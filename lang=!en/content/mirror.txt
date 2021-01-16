@@ -1,6 +1,0 @@
-this !en/content/* folder is a mirror of ~/content/*
-
-the .scss (SASS) file is only included in the ~/content/* folder
-
-some files have been removed from this mirror because they are only used in:
-~/*.html and not in ~/*/*.html
