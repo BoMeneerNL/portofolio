@@ -1,21 +1,30 @@
 .cssh {
   display: none;
 }
-.onstart{
+
+.onstart {
   text-align: center;
 }
-body{
+
+footer p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #000000;
+  text-align: center;
+}
+.logos
+{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+body {
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
-}
-li a,
-.dropbtn {
-  display: inline-block;
-  color: white;
-  text-align: center;
-  padding: 14px 16px;
-  text-decoration: none;
 }
 
 li a:hover,
@@ -51,10 +60,23 @@ li.dropdown {
 .dropdown:hover .dropdown-content {
   display: block;
 }
+
 .active {
   background-color: #4CAF50;
 }
-/*Big site*/
+
+//Big site
+.bigsite footer {
+  display: block;
+  height: 15%;
+  width: 100%;
+  background-color: #C0C0C0;
+  text-align: center;
+  bottom: 0;
+  position: fixed;
+
+}
+
 .bigsite ul {
   list-style-type: none;
   margin: 0;
@@ -83,9 +105,36 @@ li.dropdown {
 .bigsite li a:hover:not(.active) {
   background-color: #111;
 }
+
+.bigsite li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
 /*End big site*/
 
 /*small site*/
+.smallsite footer {
+  text-align: center;
+  width: 100%;
+  height: 20%;
+  bottom: 0;
+  position: fixed;
+}
+
+.smallsite li a,
+.dropbtn {
+  display: inline-block;
+  color: white;
+  text-align: center;
+  padding: 6px 8px;
+  text-decoration: none;
+}
+
 .smallsite ul {
   list-style-type: none;
   margin: 0;
@@ -93,11 +142,11 @@ li.dropdown {
   overflow: hidden;
   background-color: #C0C0C0;
 }
+
 .smallsite li {
   float: left;
 }
 
-.smallsite {
+.smallsite {}
 
-}
 /*end small site*/
