@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="nl">
+<html lang="en">
 
 <head>
   <meta charset="UTF-8">
@@ -11,8 +11,8 @@
 <body>
   <script type="text/javascript">
     window.addEventListener('resize', function () {
-      if (window.innerWidth <= 450) {
-        window.location.href = "m.index.html";
+      if (window.innerWidth >= 450) {
+        window.location.href = "index.html";
       }
     });
   </script>
@@ -23,8 +23,26 @@
     <h3>1. Your Script has not loaded (all or the) CSS file(s)</h3>
     <h3>2. for some reason your browser doesn't accept (the/your) CSS</h3>
   </div>
+  <div class="onstart">
+    <h3>Welkom op mijn portofolio pagina selecteer je taal</h3>
+    <h3>Welcome to my portofolio, here you can select your language</h3>
+    <a href="lang=!nl/home.html">
+      <img src="content/img/nl_flag.webp" alt="NL_FLAG__choose_nl_lang" width="64px"></br>
 
-  
+    </a>
+    <h4>Nederlands/Dutch</h4>
+    <br /><br />
+    <a href="lang=!en/home.html">
+      <img src="content/img/en_flag.webp" alt="EN_FLAG__choose_en_lang" width="64px"></br>
+    </a>
+    <h4>English/Engels</h4>
+    <br /><br />
+    <a href="lang=!de/home.html">
+      <img src="content/img/de_flag.webp" alt="DE_FLAG__choose_de_lang" width="64px"></br>
+    </a>
+    <h4>Deutsch/Duits/German</h4>
+  </div>
+
 </body>
 
 </html>
